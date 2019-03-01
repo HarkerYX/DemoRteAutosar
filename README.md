@@ -3,7 +3,7 @@ Contains a simple demo of how some of the basic functionality of the AUTOSAR run
 
 Cases covered:
   - Sender-Receiver: communication of primitive (int) and complex datatypes (here a fixed length string) locally (e. g. on the same ECU)
-    - communication of different ECUs may be realized similarly to complex datatypes, but with functions that communicate over a bus
-  - Client-Server: remote procedure calls may be realized through setting an event without using variables
+    - communication of different ECUs may be realized similarly to complex datatypes, but with functions that communicate over a bus (not shown in demo)
+  - Client-Server: remote procedure calls may be realized through setting an event without using variables (not shown in demo)
   
 For more information take a look at Demo.c
